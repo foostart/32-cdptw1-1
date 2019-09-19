@@ -4,6 +4,7 @@
 @color_black = #000;
 @size = 20px;
 @color_background = #F9F9F9;
+@color_tieude = #a2bcc3;
 .type-1369{
     padding-bottom: 50px;
     padding-top: 50px;
@@ -123,14 +124,15 @@
             color: @color_white;
         }
         .item-price {
-            font-size: @size;
+            font-size: @size + 6;
             line-height: @size + 6;
             margin: 0;
             font-weight: 400;
         }
 
         .item-sub-price {
-            font-size: @size - 6;
+            color: #e0e0e0;
+            font-size: @size - 2;
             font-weight: 300;
             display: block;
         }
@@ -172,14 +174,14 @@
             padding-bottom: 0;
 
             .item-title {
-                margin-bottom: 30px;
+                margin-bottom: 40px;
 
                 h2{
                     font-family: Prata;
                     font-weight: 300;
                     font-size: @size;
                     a{
-                        color: #5b8b8b;
+                        color: @color_tieude;
                     }
 
                     a:hover{
@@ -190,10 +192,9 @@
                 }
 
                 .property-address{
-                     font-size: 13px;
+                     font-size: @size - 6;
                      color: #777;
-                     font-family: Lato;
-                     line-height: 13px;
+                     line-height: @size - 7;
                      font-weight: 300;
                 }
             }
@@ -208,21 +209,22 @@
 
                 li{
                     display: inline-block;
-                    font-size: @size - 8;
+                    font-size: @size - 6;
                     font-weight: 300;
                     padding: 0 8px;
                     color: #777;
+                    font-family:Lato;
                     border-right: 1px solid #ccc;
                     list-style: none;
-                    font-family: Lato;
+                    
                 }
                 span{
                     display: block;
-                    font-size: @size;
+                    font-size: @size + 4;
                     font-weight: 100;
                     line-height: @size - 2;
                     margin-bottom: 15px;
-                    color: @color_black;
+                    color: #4e4e4e;
                 }
 
                 .h-area{
@@ -231,10 +233,10 @@
             }
 
             .item-date{
-                margin-top: 30px;
+                margin-top: 40px;
                 padding: 0;
                 li {
-                    font-size: @size - 8;
+                    font-size: @size - 6;
                     font-weight: 300;
                     margin-right: 12px;
                     color: #777;
@@ -247,7 +249,7 @@
                 }
 
                 a{
-                        color: #5b8b8b;
+                        color: @color_tieude;
                     }
 
                     a:hover{

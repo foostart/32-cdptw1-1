@@ -105,13 +105,14 @@
   color: #fff;
 }
 .type-1369 .item-price-block .item-price {
-  font-size: 20px;
+  font-size: 26px;
   line-height: 26px;
   margin: 0;
   font-weight: 400;
 }
 .type-1369 .item-price-block .item-sub-price {
-  font-size: 14px;
+  color: #e0e0e0;
+  font-size: 18px;
   font-weight: 300;
   display: block;
 }
@@ -147,7 +148,7 @@
   padding-bottom: 0;
 }
 .type-1369 .item-body .item-body-top .item-title {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 .type-1369 .item-body .item-body-top .item-title h2 {
   font-family: Prata;
@@ -155,16 +156,15 @@
   font-size: 20px;
 }
 .type-1369 .item-body .item-body-top .item-title h2 a {
-  color: #5b8b8b;
+  color: #a2bcc3;
 }
 .type-1369 .item-body .item-body-top .item-title h2 a:hover {
   text-decoration: none;
   color: #91B2B2;
 }
 .type-1369 .item-body .item-body-top .item-title .property-address {
-  font-size: 13px;
+  font-size: 14px;
   color: #777;
-  font-family: Lato;
   line-height: 13px;
   font-weight: 300;
 }
@@ -176,31 +176,31 @@
 }
 .type-1369 .item-body .item-body-bottom .item-amenities li {
   display: inline-block;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 300;
   padding: 0 8px;
   color: #777;
+  font-family: Lato;
   border-right: 1px solid #ccc;
   list-style: none;
-  font-family: Lato;
 }
 .type-1369 .item-body .item-body-bottom .item-amenities span {
   display: block;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 100;
   line-height: 18px;
   margin-bottom: 15px;
-  color: #000;
+  color: #4e4e4e;
 }
 .type-1369 .item-body .item-body-bottom .item-amenities .h-area {
   border: none;
 }
 .type-1369 .item-body .item-body-bottom .item-date {
-  margin-top: 30px;
+  margin-top: 40px;
   padding: 0;
 }
 .type-1369 .item-body .item-body-bottom .item-date li {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 300;
   margin-right: 12px;
   color: #777;
@@ -212,7 +212,7 @@
   margin-right: 3px;
 }
 .type-1369 .item-body .item-body-bottom .item-date a {
-  color: #5b8b8b;
+  color: #a2bcc3;
 }
 .type-1369 .item-body .item-body-bottom .item-date a:hover {
   text-decoration: none;
