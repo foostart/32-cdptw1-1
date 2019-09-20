@@ -1,288 +1,50 @@
-
+html, body {
+  position: relative;
+  height: 100%;
+}
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color:#000;
+  margin: 0;
+  padding: 0;
+}
 .type-1371{  
     @color-blue: #114a82;
     @color-orange: #f9a11b;
     @color-price-month: #abb2cc;
-    ////////////////////
-    // css of owl-carousel
-    ////////////////////
-    .owl-carousel {
-        display: none;
-        width: 100%;        
-        position: relative;
-        z-index: 1; 
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
     }
-    .owl-carousel .owl-stage {
-            
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
     }
-   
-    .owl-carousel .owl-stage-outer{
-        position: relative;
-        overflow: hidden;
-        -webkit-transform: translate3d(0px, 0px, 0px); 
-        margin-top: 0px;
-        margin-bottom: 50px;
-    }
-    .owl-item{
-        margin: 0px 10px;
-        border: 1px solid @color-price-month;
-        border-bottom: 4px solid @color-price-month;
-        
-    }
-    .owl-item:hover{
-        box-shadow:0 0 10px 5px rgba(0,0,0,.10);
-    }
-    .owl-carousel .owl-item {
-        
-        position: relative;
-        min-height: 1px;
-        float: left;
-        -webkit-backface-visibility: hidden;
-        -webkit-tap-highlight-color: transparent;
-        -webkit-touch-callout: none; }
-    .owl-carousel .owl-item img  {
-        display: block;
-        left:calc( 70% - 5px);
-        bottom: -19px;
-        
-    }
-
-    
-    .owl-carousel .owl-dots.disabled {
-        display: none; }
-   
-    
-    .owl-carousel.owl-loaded {
-        display: block; }
-    .owl-carousel.owl-loading {
-        opacity: 0;
-        display: block; }
-   
-  
- 
-    
-    ////////////////////
-    // css of product
-    ////////////////////
-
-    .owl-nav   {
-        position: absolute;
-        top: -6%;
-        right: 0%;
-        margin-bottom: 15px;
-        display: inline-flex;
-        .owl-prev{
-
-            width: 40px;
-            height: 40px;
-            line-height: 40px;
-             border:20px;
-
-        }
-        .owl-next{
-            width: 40px;
-            height: 40px;
-            line-height: 40px;
-            border:20px;
-        }
-        .owl-next, .owl-prev{
-            padding: 10px 5px;
-            margin: 0 2px;
-            font-size: 14px;
-            line-height: 20px;
-            color: white;
-            text-align: center;
-            text-shadow: 0 1px 1px rgba(255,255,255,0.75);
-            vertical-align: middle;
-            cursor: pointer;
-            background-color: @color-blue;
-            background-repeat: repeat-x;
-            border: 1px solid #cccccc;
-        }
-
-    }
-    .owl-next:hover, .owl-prev:hover{
-        cursor: pointer;
-        background:@color-orange;
-    }
-    .image{
-        position: absolute;
-    }
-    .image img{
-
-        width: 30%;
-        border: 3px solid #aa4243;
-        border-radius: 50%;
-        bottom: 0;
-        top: 50%;
-    }
-   
-    .nick-name{
-        color: #aa4243;
-        font-weight: bold;
-        padding: 30px 0;
-         cursor: pointer;
-      
-        
-    }
-     .nick-name:hover{
-         color:green;
-         transition:1s;
-        
-         
-    }
-    .first-word{
-        color: #f9a11b;
-    }
-    .noo-theme-title{
-        color:#114a82;
-        font-weight:600;
-        letter-spacing:.5px;
-        text-transform:uppercase;
-        font-size:36px;
-        margin-bottom:0;
-    }
-    #infomation{
-        padding: 20px 0;
-        border-bottom: 1px solid #abb2cc;
-        -moz-user-select: -moz-none; -khtml-user-select: none; 
-        -webkit-user-select: none; -o-user-select: none; user-select: none;
-    }
-    .rent{
-        position: absolute;
-        background: #27ae60;
-        right: 20px;
-        top: 20px;
-        font-size:10px;
-        display:inline-block;
-        color:#fff;
-        font-weight:600;
-        letter-spacing:.5px;
-        padding:1px 6px;
-        -webkit-box-shadow:0 0 5px 1px rgba(0,0,0,.15);
-        box-shadow:0 0 5px 1px rgba(0,0,0,.15);
-        -moz-user-select: -moz-none; -khtml-user-select: none; 
-        -webkit-user-select: none; -o-user-select: none; user-select: none;
-    }
-    #month{
-        -moz-user-select: -moz-none; -khtml-user-select: none; 
-        -webkit-user-select: none; -o-user-select: none; user-select: none;
-        font-size: 20px;
-    }
-    #month:hover{
-        color: @color-orange;
-    }
-    #like1:hover{
-        background: @color-orange;
-        color: white;
-    }
-    #like2:hover{
-        background: @color-orange;
-        color: white;
-    }
-    #like3:hover{
-        background: @color-orange;
-        color: white;
-    }
-    #share:hover{
-        color: @color-orange;
-    }
-    #feature{
-        padding-top: 5px;
-        text-align: center;
-        font-weight: 600;
-        color: @color-orange;
-        border-right: 1px solid #abb2cc;
-        -moz-user-select: -moz-none; -khtml-user-select: none; 
-        -webkit-user-select: none; -o-user-select: none; user-select: none;
-    }
-    #name{ 
-        text-decoration: none;
-        font-weight: 550;
-        color: black;
-        font-size: 20px;
-        padding-left: 20px;
-    }
-    #name:hover{
-        text-decoration: none;
-        color: @color-blue;
-    }
-    #adress{
-        -moz-user-select: -moz-none; -khtml-user-select: none; 
-        -webkit-user-select: none; -o-user-select: none; user-select: none;
-    }
-    #detail{
-        padding-top: 15px;
-        padding-bottom: 20px;
-    }
-    #ruler, #bath, #bed, #gara{
-        padding: 10px;
-    }
-    #price{
-        text-align: center;
-        padding: 20px;
-        color: #abb2cc;
-
-        #like1{
-            text-decoration: none;
-        }
-        #like2{
-            text-decoration: none;
-        }
-        #like3{
-            text-decoration: none;
-        }
-    }
-    #title{
-        border: 1px solid @color-price-month;
-        border-bottom: 5px solid @color-price-month;
-        padding: 0;
-        margin: auto 10px;
-        background: white;
-        position: relative;
-        width: 31%;
-    }
-    #title:hover{
-        box-shadow:0 0 10px 5px rgba(0,0,0,.10);
-    }
+}
     @media (max-width: 767px) {
-        .picture .img-overlay {
-            display: block;
-        }
-        .owl-nav{
-            display:block;
-        }
-        .owl-carousel .owl-item img{
-            display: block;
-            width: 100%;
-            left:30% !important;
-            bottom: -19px;
-            
-        }
+        
     }
 
     @media (max-width: 500px) {
-        .picture .img-overlay {
-            display: none;
-        }
-        .owl-nav{
-            display:block;
-        }
-        .owl-carousel .owl-item img{
-
-            display: block;
-            width: 100%;
-            left:20% !important;
-            bottom: -20px;
-        }
-          .owl-next, .owl-prev {
-          }
-          .noo-theme-title{
-            font-size: 30px;
-        }
-        .noo-theme-sub-title{
-            font-size: 12px;
-        }
+        
           
     }
 }
