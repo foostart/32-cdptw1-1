@@ -30,7 +30,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="card-image">
                             <span class="card-notify-badge">Low KMS</span>
                             <span class="card-notify-year">2018</span>
-                            <img class="img-fluid" src="https://imageonthefly.autodatadirect.com/images/?USER=eDealer&PW=edealer872&IMG=USC80HOC011A021001.jpg&width=440&height=262" alt="Alternate Text" />
+                            <img class="img-fluid" src="../823/images/xe1.jpg" alt="Alternate Text" />
                         </div>
                         <div class="card-image-overlay">
                             <span class="card-detail-badge">Used</span>
@@ -50,7 +50,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="card-image">
                             <span class="card-notify-badge">Fully-Loaded</span>
                             <span class="card-notify-year">2017</span>
-                            <img class="img-fluid" src="https://imageonthefly.autodatadirect.com/images/?USER=eDealer&PW=edealer872&IMG=CAC80HOC021B121001.jpg&width=440&height=262" alt="Alternate Text" />
+                            <img class="img-fluid" src="../823/images/xe2.jpg" alt="Alternate Text" />
                         </div>
                         <div class="card-image-overlay m-auto">
                             <span class="card-detail-badge">Used</span>
@@ -71,7 +71,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="card-image">
                             <span class="card-notify-badge">Price Reduced</span>
                             <span class="card-notify-year">2018</span>
-                            <img class="img-fluid" src="https://imageonthefly.autodatadirect.com/images/?USER=eDealer&PW=edealer872&IMG=USC80HOC091A021001.jpg&width=440&height=262" alt="Alternate Text" />
+                            <img class="img-fluid" src="../823/images/xe3.jpg" alt="Alternate Text" />
                         </div>
                         <div class="card-image-overlay m-auto">
                             <span class="card-detail-badge">Used</span>
