@@ -1,58 +1,63 @@
 
-
-
-.type-1377{
-    @color1 = rgb(91,139,139);
+@color1 = rgb(91,139,139);
 @color2 = rgb(0,68,66);
 @x = 100%;
-    margin-top: 20px;
+.type-1377{
+    border-bottom: 4px solid #e0e0e0;
+    padding: 10px 0;
+    background: #fafafa;    
     color: #231f20;
     font-family: Lato;
     font-size: 18px;
     font-weight: 300;
     line-height: 32px;
     text-transform: none;
+    .fa-search{
+        font-size:15px;
+        position: absolute;
+        top: 1px;
+        left: 20px;
+        color: #ccc;
+        padding: 7px 6px 6px 6px;
+        height: auto;
 
-}
-.search{
-    background-color: @color1;
-    color: white;
-}
-.search:hover  {
-    background-color: @color2;
-    color: white;
-}
-.advanced{
-    color: @color1;
-    background-color: white;
+    }
+    .form-control{
+        padding: 6px 35px;
+    }
+    .search{
+        background-color: @color1;
+        color: white;
+    }
+    .search:hover  {
+        background-color: @color2;
+        color: white;
+    }
+    .advanced{
+        color: @color1;
+        background-color: transparent;
+        
+    }
+    .advanced:hover{
+        color: @color2;
+    }
+
+
+    .btn{
+        width: @x !important;
+    }
+    .drop{
+        width: @x;
+    }
+    .btn-group{
+        
+        width: @x !important;
+    }
+
     
-}
-.advanced:hover{
-    color: @color2;
-}
+    .filter-option{
+        color: #afafaf;
+        padding-right:20px;
+    }
 
-
-.btn{
-    width: @x !important;
-    
-    text-align: center;
-}
-.drop{
-    width: @x;
-}
-.btn-group{
-    
-    width: @x !important;
-}
-
-.fa-sort{ 
-
-text-align: right;
-
-}
-.filter-option{
-    text-align: left;
-}
-.adv{
-    margin-top:20px;
 }
