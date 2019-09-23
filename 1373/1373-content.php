@@ -22,7 +22,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="row">
                                 <div class="item-wrap">
                                     <div class="body-top">
-                                    <a href="#" class="demohover">
+                                    <a href="#">
                                         <img src="../1373/images/4.png" alt="hinh1" class="img-responsive">
                                         </a>
                                     </div>

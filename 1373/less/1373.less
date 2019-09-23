@@ -1,6 +1,5 @@
     @color-blue: #114a82;
     @color-orange: #f9a11b;
-    @color-price-month: #abb2cc;
     @color-background: #f4f3f9;
     @size = 20px;
 html, body {
@@ -24,7 +23,7 @@ body {
     }
     .swiper-slide {
         text-align: center;
-        font-size: 18px;
+        font-size: @size - 2;
         background: #fff;
         /* Center slide text vertically */
         display: -webkit-box;
@@ -81,7 +80,7 @@ body {
         margin-top: 5px;
         padding: 5px 5px auto;
         overflow: hidden;
-        color:blue;
+        color:@color_blue;
         -webkit-transition: all .5s ease-in 0s;
         -moz-transition: all .5s ease-in 0s;
         transition: all .5s ease-in 0s;
