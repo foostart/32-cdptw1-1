@@ -23,15 +23,15 @@
     <head>
         <title>module 1311</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
 
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet"  />
+        <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet"  />
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet"/>
-        <link href="<?php echo $url_path ?>/css/1373.css" rel="stylesheet" type="text/css" />
+        <link href="./css/1373.css" rel="stylesheet" type="text/css" />
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" ></script>
-        <script src="<?php echo $url_path ?>/js/owl.carousel.min.js"></script>
         <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/1373.js"></script>
     </head>
 
     <body>   
