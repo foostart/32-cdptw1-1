@@ -35,6 +35,6 @@
 
     <body>   
             <?php  include'./1371-content.php' ?>
-
+            <script src="<?php echo $url_path ?>/js/1371.js"></script>
     </body>
 </html>

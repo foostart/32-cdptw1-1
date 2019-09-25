@@ -16,7 +16,7 @@ $url_path = str_replace('\\', '/', $url_path);
 		<div class="type-1371">
 			<div class="container" style="margin-top: 10px;">
 				<div class="row">
-					<img class="img-fix" src="../1371/images/logo.jpg" style="width:100%;" alt="logo">
+					<img class="img-fix" src="../1371/images/logo.jpg" style="max-width:100%;" alt="logo">
 					<!-- Swiper -->
 					<div class="swiper-container">
 						<div class="swiper-wrapper">
@@ -214,20 +214,6 @@ $url_path = str_replace('\\', '/', $url_path);
 				</div>
 			</div>
 		</div>
-		<script>
-		var swiper = new Swiper('.swiper-container', {
-		slidesPerView: 3,
-		spaceBetween: 30,
-		loop: true,
-		pagination: {
-		el: '.swiper-pagination',
-		clickable: true,
-		},
-		navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev',
-		},
-		});
-		</script>
+		
 	</body>
 </html>
