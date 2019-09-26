@@ -52,13 +52,13 @@ $url_path = str_replace('\\', '/', $url_path);
                             <span class="card-notify-year">2017</span>
                             <img class="img-fluid" src="../823/images/xe2.jpg" alt="Alternate Text" />
                         </div>
-                        <div class="card-image-overlay m-auto">
+                        <div class="card-image-overlay ">
                             <span class="card-detail-badge">Used</span>
                             <span class="card-detail-badge">$28,000.00</span>
                             <span class="card-detail-badge">13000 Kms</span>
                         </div>
                         <div class="card-body text-center">
-                            <div class="ad-title m-auto">
+                            <div class="ad-title ">
                                 <h5>Honda CIVIC HATCHBACK LS</h5>
                             </div>
                             <a class="ad-btn" href="#">View</a>
@@ -73,13 +73,13 @@ $url_path = str_replace('\\', '/', $url_path);
                             <span class="card-notify-year">2018</span>
                             <img class="img-fluid" src="../823/images/xe3.jpg" alt="Alternate Text" />
                         </div>
-                        <div class="card-image-overlay m-auto">
+                        <div class="card-image-overlay ">
                             <span class="card-detail-badge">Used</span>
                             <span class="card-detail-badge">$22,000.00</span>
                             <span class="card-detail-badge">8000 Kms</span>
                         </div>
                         <div class="card-body text-center">
-                            <div class="ad-title m-auto">
+                            <div class="ad-title ">
                                 <h5>Honda Accord Hybrid LT</h5>
                             </div>
                             <a class="ad-btn" href="#">View</a>
