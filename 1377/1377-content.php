@@ -30,7 +30,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="col-md-6">
                         <div class="row">
                             <div class="col-md-3">
-                                <div class="btn-group bootstrap-select">
+                                <div class="btn-group">
                                     <button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="All Cities">
                                     <span class="filter-option ">All Cities</span>&nbsp;
                                     <span class="fa fa-sort"></span></button>
@@ -60,7 +60,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     <span class="fa fa-sort"></span></button>
                                                 </div>
                                                 <div class="col-md-3">
-                                                    <button class="advance-btn blue btn advanced" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-gear">&nbsp;</i>Advanced</button>
+                                                    <button class=" blue btn advanced" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-gear">&nbsp;</i>Advanced</button>
                                                 </div>
                                                 <div class="col-md-3">
                                                     <button class=" blue btn search" type="button" >Search</button>
