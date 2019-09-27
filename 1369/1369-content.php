@@ -18,7 +18,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="control-bar">
                     <div class="title">Properties</div>
                     <div class="sort-properties">
-                        <p class="color-sort">Sort by: </p>
+                        <p>Sort by: </p>
                         <div class="dropdown">
                             <select name="select" class="dropdown-select">
                                 <option value="">Default Order</option>
